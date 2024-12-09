@@ -3,7 +3,7 @@ class Area_Circle:
     def __init__(self, radius):
         self.radius = radius
     def areaofcircle(self):
-        area = float(math.pi* self.radius * self.radius)
+        area = float(math.pi * math.pow(self.radius,2))
         return area
     def perimofcircle(self):
         perimeter = float(math.pi* 2 * self.radius)
